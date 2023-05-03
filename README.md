@@ -41,4 +41,4 @@ Maestro is a UI testing framework for Android | iOS.
 
 ## Thanks
 
-Thanks to Open Source projects that helped make this repostiory possible.
+Thanks to Open Source projects that helped make this repository possible.
