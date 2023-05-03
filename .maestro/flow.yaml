@@ -1,0 +1,24 @@
+appId: maestro.swipe
+---
+- launchApp
+- runFlow:
+    when:
+      visible:
+        text: "maestro-swipe-onboarding"
+    commands:
+      - tapOn:
+          text: "maestro-swipe-onboarding"
+- assertVisible:
+    text: "Swipe Directions"
+- swipe:
+    direction: LEFT
+    duration: 2000 # 3 seconds
+- swipe:
+    direction: LEFT
+    duration: 8000 # 8 seconds
+- assertVisible:
+    text: "Maestro"
+- swipe:
+    start: 10%, 50% # From (90% of width, 50% of height)
+    end: 90%, 50% # To (10% of width, 50% of height)
+    duration: 3000 # 3 seconds
