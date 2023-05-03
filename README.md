@@ -8,7 +8,7 @@
 
 📱 Consistent Across Android | iOS
 
-[Accurate gesture UI testing across Mobile apps](https://maestro.mobile.dev/api-reference/commands/swipe)
+[Accurate gesture UI testing across mobile apps](https://maestro.mobile.dev/api-reference/commands/swipe)
 
 ## Setup
 
